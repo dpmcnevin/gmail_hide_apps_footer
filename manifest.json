@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "style.css" ],
+      "matches": [ "https://mail.google.com/*" ]
+   } ],
+   "description": "Hide the annoying apps in the gmail footer on google apps",
+   "icons": {
+      "48": "simple.png"
+   },
+   "name": "GMail Hide Apps Footer",
+   "version": "0.0.1"
+}
